@@ -1,0 +1,100 @@
+body{
+    background-color: var(--shape);
+}
+
+table {
+    margin: 0 auto 3rem;
+    text-align: center;
+    width: 100%;
+    border-spacing: 0.25rem;
+    background-color: rgb(197, 197, 197);
+    
+
+   
+
+    th{
+        color:var(--text-title); 
+        font-weight: 900;
+        padding: 1rem 2rem;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    td{
+        padding: 1rem 2rem;
+        border: 0;
+        background-color: rgba(218, 218, 218, 0.712);
+        color: #000;
+        font-weight: 500;
+        border-radius: 0.25rem;
+    }
+}
+
+button.icon{
+    border: 0;
+    background-color: rgba(218, 218, 218, 0.712);
+    &:hover{
+        filter: brightness(0.9);
+    }
+}
+
+button.addDragon-button{
+    display: inline-block;
+    width: 200px;
+    background-color: rgba(167, 167, 167, 0.712);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    span{
+        margin-left: 0.5rem;
+    }
+
+    &:hover{
+        background-color: rgba(167, 167, 167, 0.712);
+        font-weight: 700;
+    }
+}
+
+.react-modal-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.react-modal-content{
+    width: 100%;
+    max-width: 576px;
+    background: var(--background);
+    padding: 3.5rem;
+    position: relative;
+    border-radius: 0.25rem;
+    
+    h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: var(--text-title)
+    }
+
+    button.button-close-modal{
+        position: absolute;
+        left: 20rem;
+        top: -1.5rem;
+        border: 0;
+        background: transparent;
+
+        &:hover{
+            filter: brightness(0.8);
+        }
+    }
+}

@@ -1,0 +1,17 @@
+#div-login{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(187, 187, 187);
+    margin: 3rem auto;
+    border-radius: 0.25rem;
+    padding: 2rem;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        margin-top: 1.5rem;
+    }
+}
